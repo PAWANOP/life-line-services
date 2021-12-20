@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Aakanksha Galary</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="../../css/index.css">
+</head>
+
+<body>
+
+    <!-- nav starts from here  -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="../../index.html"> <img class="logo-nav" src="../../images/logo.jpg"> Lifeline </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nab">
+                <li class="div"> <a href="#">Home <span class="sr-only">(current)</span></a> </li>
+                <li class="div divider "> <a href="#deals">Lightning Deal</a> </li>
+                <li class="div divider1"> <a href="#explore">Explore Employee</a> </li>
+                <li class="div divider2 "> <a href="../../service/serviceprovide.html">Reigster As Service Provider</a> </li>
+            </ul>
+            <div class="mx-2">
+                <button class="btn btn1" data-toggle="modal" data-target="#loginModal"><i class="bi bi-box-arrow-in-right"></i> Sign in</button>
+                <button class="btn btn1" data-toggle="modal" data-target="#signupModal"><i class="bi bi-person-plus-fill"></i> Sign UP</button>
+            </div>
+    </nav>
+    <!-- login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="loginModalLabel">Sign in</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email or mobile Phone number</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="text">
+                            <p style="margin-bottom: 0; padding-right: 20px;">By continuing, you agree to Lifeline's <a href="#">Terms of Use </a></p>
+                            <p style="margin-bottom: 0; padding-right:221px;"> and <a href="">Privacy Policy</a>.</p>
+                        </div>
+                        <button type="submit" class="btn btn2">Continue</button>
+                    </form>
+                    <div class="text">
+                        <p style="text-align: center; margin-bottom: 0; padding-left: 50px;">Or</p>
+                        <i class="bi bi-facebook" style="color: blue; cursor: pointer; margin-right: 15px;"><a href="">Sign in with Facebook</a></i>
+                        <i class="bi bi-google" style="color: red; cursor: pointer;"><a href="">Sign in with Google </a></i>
+                        <p><a href="" data-toggle="modal" data-target="#forgetModal" data-dismiss="modal">Forget Password?</a></p>
+                    </div>
+                    <hr>
+                    <div class="sign">
+                        New to Lifeline ? <a href="" data-toggle="modal" data-target="#signupModal" data-dismiss="modal">Sign up<i class="bi bi-caret-right-fill" style="font-size: 16px;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SignUp Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="signupModalLabel">Create Account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="email" class="form-control" id="Name" aria-describedby="emailHelp" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Mobile Number</label>
+                            <input type="tel" class="form-control" id="mobile" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Email (optional)</label>
+                            <input type="tel" class="form-control" id="mobile" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Password</label>
+                            <input type="password" class="form-control" id="" placeholder="At least 8 Characters">
+                        </div>
+                        <div class="alert-password">
+                            <i class="bi bi-info-lg" style="color: blue;"></i> Passwords must be at least 8 characters.
+                        </div>
+                        <div class="text">
+                            <p style="margin-bottom: 0;">We will send you a OTP to verify your phone.</p>
+                            <p style="margin-bottom: 0;">Message and Data rates may apply.</p>
+                        </div>
+                        <button type="submit" class="btn btn2 ">Continue</button>
+                    </form>
+                    <div class="sign">
+                        Already Have Account ? <a href="" data-toggle="modal" data-target="#loginModal" data-dismiss="modal">Sign in<i class="bi bi-caret-right-fill" style="font-size: 16px;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- password forgetten modal  -->
+    <div class="modal fade" id="forgetModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form>
+                        <div class="lock">
+                            <img src="https://www.freeiconspng.com/thumbs/lock-icon/black-lock-icon-14.png" alt="">
+                        </div>
+                        <div class="text" style="margin-bottom: 5px;">
+                            <p style="padding-right: 10px;margin-bottom:0;">Enter your email, phone, or username and we'll</p>
+                            <p style="padding-right: 10px;margin-bottom:0;"> send you a link to get back into your account.</p>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email,Phone or Username">
+                        </div>
+                        <button type="submit" class="btn btn2">Send OTP</button>
+                    </form>
+                    <hr>
+                    <div class="sign">
+                        <a href="" data-toggle="modal" data-target="#signupModal" data-dismiss="modal">Create New Account<i class="bi bi-caret-right-fill" style="font-size: 16px;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- nav ends here  -->
+
+    <div class="main-container">
+        <div class="view">
+            <img src="../pics/gallery.jpg">
+        </div>
+        <section class="ftco-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="heading-section mb-5 pb-md-4">Our Team</h2>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="slider-hero">
+                            <div class="featured-carousel owl-carousel">
+                                <div class="item">
+                                    <div class="work">
+                                        <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/slider-1.jpg);">
+                                            <div class="text text-center">
+                                                <h2>Development Team</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="work">
+                                        <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/slider-2.jpg);">
+                                            <div class="text text-center">
+                                                <h2>Main Lead</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="work">
+                                        <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/slider-3.jpg);">
+                                            <div class="text text-center">
+                                                <h2>Employees</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="work">
+                                        <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/slider-4.jpg);">
+                                            <div class="text text-center">
+                                                <h2>IT Department</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="work">
+                                        <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/slider-5.jpg);">
+                                            <div class="text text-center">
+                                                <h2>Sales Manager</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="my-5 text-center">
+                                <ul class="thumbnail">
+                                    <li class="active img">
+                                        <a href="#"><img src="images/thumb-1.jpg" alt="Image" class="img-fluid"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/thumb-2.jpg" alt="Image" class="img-fluid"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/thumb-3.jpg" alt="Image" class="img-fluid"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/thumb-4.jpg" alt="Image" class="img-fluid"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/thumb-5.jpg" alt="Image" class="img-fluid"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h1 class="logo-text"><span>Aak</span>anksha</h1>
+                <hr>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos recusandae, enim facere eligendi sit, fugiat earum est aspernatur dolorum quia nulla voluptas placeat quod atque, aliquid porro sint autem spike. </p>
+                <hr>
+                <div class="contact">
+                    <span><i class="bi bi-house"></i> &nbsp; No. 115, Main Street, <br> Vijayanagar Banglore, <br> Inc 552 </span>
+                    <hr>
+                    <span> <i class="fa fa-envelope"></i> &nbsp; info@aakanksha.com</span>
+                    <hr>
+                    <span> <i class="fa fa-phone"></i> &nbsp; 123-456-789</span>
+                    <hr>
+                </div>
+                <div class="socials">
+                    <a href="https://twitter.com/AAKANKS57852311" target="_blank"> <i class="fa fa-twitter"></i> </a>
+                    <a href="https://www.facebook.com/AAKANKSHAcompany" target="_blank"> <i class="fa fa-facebook-official"></i> </a>
+                    <a href="https://www.linkedin.com/company/aakankshaecommerce/?viewAsMember=true" target="_blank"> <i class="fa fa-linkedin"></i> </a>
+                    <a href="https://www.instagram.com/aakankshacompany/" target="_blank"> <i class="fa fa-instagram"></i> </a>
+                    <a href="https://www.youtube.com/channel/UCQ79LZ_IrnxzkFL5MZxxOeg" target="_blank"> <i class="fa fa-youtube"></i> </a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <hr> <br>
+                <ul>
+                    <a href="../../index.html">
+                        <li> <i class="bi bi-arrow-right-square-fill"></i> Home </li>
+                    </a>
+                    <hr>
+                    <a href="../../serviceprovide.html">
+                        <li> <i class="bi bi-arrow-right-square-fill"></i> Shop </li>
+                    </a>
+                    <hr>
+                    <a href="../team.html">
+                        <li> <i class="bi bi-arrow-right-square-fill"></i> Team</li>
+                        <hr>
+                        <a href="#">
+                            <li> <i class="bi bi-arrow-right-square-fill"></i> Gallery</li>
+                        </a>
+                        <hr>
+                        <a href="../feedback.html">
+                            <li> <i class="bi bi-arrow-right-square-fill"></i> Feedback </li>
+                        </a>
+                        <hr>
+                        <a href="#">
+                            <li> <i class="bi bi-arrow-right-square-fill"></i> Help and Support</li>
+                        </a>
+                        <hr>
+                        <a href="../termsandcondition.html">
+                            <li> <i class="bi bi-arrow-right-square-fill"></i> Terms and Conditions</li>
+                        </a>
+                </ul>
+            </div>
+            <div class="footer-section contact-form">
+                <h2>Email Newsletter</h2>
+                <hr> <br>
+                <p> Subscribe to our mailing list to get update </p> <br>
+                <form action="#" method="post">
+                    <input type="text" name="text" class="text-input contact-input" placeholder="Your full name..."> <br>
+                    <input type="email" name="email" class="text-input contact-input" placeholder="Your email address..."> <br>
+                    <button type="submit" class="btn btn-big contact-btn"> Subscribe </button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <img src="https://img.icons8.com/color/36/000000/visa.png"> <img src="https://img.icons8.com/color/36/000000/g.png"> <img src="https://img.icons8.com/color/36/000000/mastercard.png"> <img src="https://img.icons8.com/color/36/000000/amex.png">            <img src="https://img.icons8.com/color/36/000000/paypal.png"> <br>
+            <i class="fa fa-copyright"></i> <strong> Aakanksha || 2021  </strong>
+        </div>
+    </div>
+    <!-- // footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+
+</html>

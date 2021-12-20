@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>LifeLine Services | Home</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <!-- for navbar -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- font type -->
+  <!-- full userinfo body file index.css -->
+  <!-- footer css file -->
+  <link rel="stylesheet" href="./footer/footer.css">
+  <!-- user profile css file -->
+  <link rel="stylesheet" href="./css/userprofile.css">
+  <!-- profile logo -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  
+  <!-- for social and font awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <img class="logo-nav" src="images/logo.jpg">
+    <div class="nav-animtion">
+      <a class="navbar-brand" href="#">LifeLine</a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon fas fa-bars">
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nab">
+        <li class="div"> <a href="userpage.html">Home <span class="sr-only">(current)</span></a> </li>
+        <li class="div"> <a href="lightningDeal.html">Lightning Deal</a> </li>
+        <li class="div"> <a href="#explore">Explore Employee</a> </li>
+      </ul>
+      <div class="mx-2">
+        <div class="btn-group" role="group">
+          <button class="btn profile-btn" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false" style="box-shadow: none;">
+            <i class="bi bi-person-circle" style="font-size: 40px;"></i>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="userinfo.html">My Settings</a>
+            <hr>
+            <a class="dropdown-item" href="index.html">Logout</a>
+          </div>
+        </div>
+      </div>
+  </nav>
+
+
+
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-md-10 col-11 mx-auto">
+
+        <nav aria-label="breadcrumb" class="mb-3">
+          <ol class="breadcrumb  bg-commom">
+            <li class="breadcrumb-item"><a href="userpage.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">My Settings</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Profile Information</li>
+            <li class="breadcrumb-item d-none">My Booking</li>
+            <li class="breadcrumb-item d-none">Manage Adresses</li>
+          </ol>
+        </nav>
+        <div class="row">
+          <!-- right side navbar -->
+          <div class="col-lg-3 col-md-4 d-md-block">
+            <div class="card bg-common card-left bg-commom">
+              <div class="card-body">
+                <nav class="nav d-md-block d-none">
+                  <a data-toggle='tab' class="nav-link active" aria-current="page" href="#profile">
+                    <i class="fas fa-user mr-4"></i> Profile Information</a>
+                  <a data-toggle='tab' class="nav-link" href="#booking">
+                    <i class="fas fa-truck mr-4"></i> My Booking</a>
+                  <a data-toggle='tab' class="nav-link" href="#manage">
+                    <i class="fas fa-map-marker-alt mr-4"></i>Manage Adresses</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <!-- right side div starts -->
+          <div class="col-lg-9 col-md-8">
+            <div class="card">
+              <div class="card-header border-bottom mb-3 d-md-none ">
+                <ul class="nav nav-tabs card-header-tabs nav-fill">
+                  <li class="nav-item" >
+                    <a data-toggle="tab" class="nav-link active" aria-current="page" href="#profile" style="color: #22577A;"> <i
+                        class="fas fa-user mr-1"></i></a>
+                  </li>
+                  <li class="nav-item" >
+                    <a data-toggle="tab" class="nav-link" href="#booking" style="color: #22577A;"><i class="fas fa-truck mr-1"></i> </a>
+                  </li>
+                  <li class="nav-item" >
+                    <a data-toggle="tab" class="nav-link" href="#manage" style="color: #22577A;"> <i class="fas fa-map-marker-alt mr-1"></i></a>
+                  </li>
+
+                </ul>
+              </div>
+              <!-- actual data which is live start -->
+              <div class="card-body tab-content border-0 ">
+                <!-- //actual profile data -->
+                <div class="tab-pane active" id="profile">
+                  <h6>YOUR PROFILE INFORMATION</h6>
+                  <hr>
+                  <form>
+                    <div class="mb-3">
+                      <div class="profile-pic">
+                        <label class="-label" for="file">
+                          <span class="glyphicon glyphicon-camera"></span>
+                          <span>Profile Image</span>
+                        </label>
+                        <input id="file" type="file" onchange="loadFile(event)" />
+                        <img src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" id="output" width="200" />
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                      <input type="text" class="form-control fullname-user" id="exampleFormControlInput1"
+                        placeholder="Fullname" value="pawan siliwal">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Mobile Number</label>
+                      <input type="text" class="form-control number-user" id="exampleFormControlInput1"
+                        placeholder="Mobile Number" value="9136893949">
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Email</label>
+                      <input type="email" class="form-control email-user" id="exampleFormControlInput1"
+                        placeholder="Email" value="pawanks9136@gmail.com">
+                    </div>
+                    <div class="d-flex justify-content-around">
+                      <div class="first-control ">
+                        <label for="exampleFormControlInput1" class="form-label">Gender </label><br>
+                        <select name="gender" id="gender-user">
+                          <option value="" selected disabled>Select A Gender</option>
+                          <option value="">Male</option>
+                          <option value="">Female</option>
+                        </select>
+                      </div>
+                      <div class="second-control">
+                        <label for="exampleFormControlInput1" class="form-label">Date Of Birth</label><br>
+                        <input type="date" id="dateofbirth-user" value="">
+                      </div>
+                    </div>
+                    <div class="edit-save">
+                      <a class="edit-button">Edit</a>
+                      <a class="save-button">Save</a>
+                    </div>
+                  </form>
+                </div>
+                <!-- //actual account data -->
+                <div class="tab-pane " id="booking">
+                  <h6>My Booking</h6>
+                  <hr>
+                  <form>
+                    <div class="container">
+                      <div class="tabs tabs--md">
+                          <ul class="tabs__list list-unstyled">
+                              <li class="tabs__item  tabs__item--active">
+                                  <a href="#tab-1" class="tabs__link">Ongoing</a>
+                              </li>
+                              <li class="tabs__item">
+                                  <a href="#tab-2" class="tabs__link">History</a>
+                              </li>
+                          </ul>
+                          <div class="tabs__content">
+                              <div id="tab-1" class="tabs__area tabs__area--active">
+                                <div class="right-side-bottom-image">
+                                  <img src="https://dweyg64kwaplt.cloudfront.net/assets/711987334d61c574b13ebb08ff7f0c71.png"
+                                    alt="">
+                                </div>
+                                <p>No Bookings yet !</p>
+                                <div class="right-service-booking-button">
+                                  <a href="userpage.html">Book A Service</a>
+                                </div>
+                              </div>
+                              <div id="tab-2" class="tabs__area">
+                                <div class="right-side-bottom-image">
+                                  <img src="https://dweyg64kwaplt.cloudfront.net/assets/711987334d61c574b13ebb08ff7f0c71.png"
+                                    alt="">
+                                </div>
+                                <p>No Bookings yet !</p>
+                                <div class="right-service-booking-button">
+                                  <a href="userpage.html">Book A Service</a>
+                                </div>
+                              </div>
+                            
+                          </div>
+                      </div>
+                     
+                  </div>
+
+                  </form>
+                </div>
+                <!-- //actual security data -->
+                <div class="tab-pane " id="manage">
+                  <h6>Manage Adresses</h6>
+                  <hr>
+                  <form>
+                    <div class="address-part">
+                      <div class="addres-left">
+                        <h6>Manage Adresses</h6>
+                      </div>
+                      <div class="addres-right">
+                        <span>
+                          <i class="material-icons plusicons" data-toggle="modal"
+                            data-target="#modaladdressForm">add</i>
+                          <span>Add New Address</span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="modaladdressForm" tabindex="-1" role="dialog"
+                      aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content w-200">
+                          <div class="modal-header text-center">
+                            <h4 class="modal-title w-100 font-weight-bold">ADD ADDRESS
+                            </h4>
+                          </div>
+                          <div class="modal-body">
+                            <div class="md-form mb-3">
+                              <input type="text" id="form34" class="form-control validate" placeholder="Your name">
+                            </div>
+
+                            <div class="md-form mb-3">
+                              <input type="email" id="form29" class="form-control validate" placeholder="Your email">
+                            </div>
+
+                            <div class="md-form mb-3">
+                              <input type="text" id="form32" class="form-control validate"
+                                placeholder="10-digit mobile number">
+                            </div>
+
+                            <div class="md-form">
+                              <i class="fas fa-pencil prefix grey-text"></i>
+                              <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+                              <label data-error="wrong" data-success="right" for="form8">Your message</label>
+                            </div>
+
+                          </div>
+                          <div class="modal-footer d-flex justify-content-center">
+                            <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- //actual notification data -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <div class="footer ff">
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h1 class="logo-text"><span>Aak</span>anksha</h1>
+        <hr>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos recusandae, enim facere eligendi sit,
+          fugiat earum est aspernatur dolorum quia nulla voluptas placeat quod atque, aliquid porro sint autem spike.
+        </p>
+        <hr>
+        <div class="contact">
+          <span><i class="bi bi-house"></i> &nbsp; No. 115, Main Street, <br> Vijayanagar Banglore, <br> Inc 552 </span>
+          <hr>
+          <span> <i class="fa fa-envelope"></i> &nbsp; info@aakanksha.com</span>
+          <hr>
+          <span> <i class="fa fa-phone"></i> &nbsp; 123-456-789</span>
+          <hr>
+        </div>
+        <div class="socials">
+          <a href="https://twitter.com/AAKANKS57852311" target="_blank"> <i class="fab fa-twitter"></i> </a>
+          <a href="https://www.facebook.com/AAKANKSHAcompany" target="_blank"> <i class="fab fa-facebook"></i> </a>
+          <a href="https://www.linkedin.com/company/aakankshaecommerce/?viewAsMember=true" target="_blank"> <i
+              class="fab fa-linkedin"></i> </a>
+          <a href="https://www.instagram.com/aakankshacompany/" target="_blank"> <i class="fab fa-instagram"></i> </a>
+          <a href="https://www.youtube.com/channel/UCQ79LZ_IrnxzkFL5MZxxOeg" target="_blank"> <i
+              class="fab fa-youtube"></i> </a>
+        </div>
+      </div>
+      <div class="footer-section links">
+        <h2>Quick Links</h2>
+        <hr> <br>
+        <ul>
+          <a href="index.html">
+            <li> <i class="bi bi-arrow-right-square-fill"></i> Home </li>
+          </a>
+          <hr>
+          <a href="#">
+            <li> <i class="bi bi-arrow-right-square-fill"></i> Shop </li>
+          </a>
+          <hr>
+          <a href="footer/team.html">
+            <li> <i class="bi bi-arrow-right-square-fill"></i> Team</li>
+            <hr>
+            <a href="./footer/carousel-10/index.html">
+              <li> <i class="bi bi-arrow-right-square-fill"></i> Gallery</li>
+            </a>
+            <hr>
+            <a href="./footer/feedback.html">
+              <li> <i class="bi bi-arrow-right-square-fill"></i> Feedback </li>
+            </a>
+            <hr>
+            <a href="#">
+              <li> <i class="bi bi-arrow-right-square-fill"></i> Help and Support</li>
+            </a>
+            <hr>
+            <a href="./footer/termsandcondition.html">
+              <li> <i class="bi bi-arrow-right-square-fill"></i> Terms and Conditions</li>
+            </a>
+        </ul>
+      </div>
+      <div class="footer-section contact-form">
+        <h2>Email Newsletter</h2>
+        <hr> <br>
+        <p> Subscribe to our mailing list to get update </p> <br>
+        <form action="#" method="post">
+          <input type="text" name="text" class="text-input contact-input" placeholder="Your full name..."> <br>
+          <input type="email" name="email" class="text-input contact-input" placeholder="Your email address..."> <br>
+          <button type="submit" class="btn btn-big contact-btn"> Subscribe </button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <img src="https://img.icons8.com/color/36/000000/visa.png"> <img
+        src="https://img.icons8.com/color/36/000000/g.png"> <img
+        src="https://img.icons8.com/color/36/000000/mastercard.png"> <img
+        src="https://img.icons8.com/color/36/000000/amex.png"> <img
+        src="https://img.icons8.com/color/36/000000/paypal.png"> <br>
+      <i class="fa fa-copyright"></i> <strong> Aakanksha || 2021 </strong>
+    </div>
+  </div>
+  <button class="goTop fas fa-arrow-up"></button>
+
+  <!-- <script src="index.js"></script> -->
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous">
+  </script>
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script> -->
+  <!-- Template Main JS File -->
+</body>
+<script src="js/userinfo.js"></script>
+<script>
+  window.addEventListener('load', () => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    })
+  });
+
+
+  AOS.init();
+
+
+
+  $(document).ready(function () {
+    $(window).scroll(function () {
+      if (this.scrollY > 20) {
+        $(".navbar").addClass("sticky");
+        $(".goTop").show(1000);
+      } else {
+        $(".navbar").removeClass("sticky");
+        $(".goTop").hide(1000);
+      }
+    });
+
+    $(".goTop").click(function () {
+      scroll(0, 0)
+    });
+  });
+</script>
+
+</html>
